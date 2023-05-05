@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Decodificador</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="imagens/G.png" alt="logo">
+    </header>
+    <main>
+        <section>
+            <textarea class="textarea-left" cols="41" rows="4" placeholder="Digite o seu texto"></textarea>
+            <div class="information">
+                <h6>Apenas letras minúsculas e sem acento.</h6>
+            </div>
+            <div class="buttons">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+            </div>
+        </section>
+        <section>
+            <div class="message">
+                <textarea class="textarea-right" cols="20" rows="10" onchange="apagarImagem()"></textarea>
+                <button class="btn-copy" onclick="btnCopyText()">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h6>
+            <a href="mailto:mlakergabriel@gmail.com">Gabriel Amed Mlaker da Silva</a> 
+            <a href="www.linkedin.com/in/gabrielmlaker">Linkedin</a>
+            <a href="www.github.com/gabrielmlaker">Github</a>
+        </h6>
+
+    </footer>
+    <script src="javascript/script.js"></script>
+</body>
+
+</html>

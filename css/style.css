@@ -1,0 +1,142 @@
+* {
+    background: #ede5cc;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logo {
+    margin-left: 10px;
+    padding-left: 10px;
+    width: 4%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+
+}
+
+
+.textarea-left {
+    border: none;
+    color: #094542;
+    margin-top: 90px;
+    text-transform: lowercase;
+    font-size: 32px;
+}
+
+.textarea-right {
+    border: none;
+    color: #094542;
+    background: #ede5cc;
+    font-size: 24px;
+    margin: 32px;
+    width: 336px;
+    text-transform: lowercase;
+    background-repeat: no-repeat;
+    height: 80%;
+    position: relative;
+}
+
+.textarea-right{
+    
+    background-image: url(/www/imagens/High\ quality\ products\ 1\ 1.png);
+
+}
+
+::placeholder {
+    color: #094542;
+}
+
+.text-area:focus {
+    outline: none;
+}
+
+.message {
+    background: #ede5cc;
+    border: none;
+    border-radius: 24px;
+    color: #094542;
+    margin-left: 80px;
+    height: 700px;
+    width: 400px;
+    position: fixed;
+}
+
+.message:focus {
+    outline: none;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.btn-desencriptar,
+.btn-encriptar,
+.btn-copy {
+    font-size: 16px;
+    border-radius: 24px;
+    border: #094542 1px solid;
+    cursor: pointer;
+}
+
+.btn-desencriptar {
+    background: #ede5cc;
+    color: #094542;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+
+}
+
+.btn-encriptar {
+    background: #094542;
+    color: #FFFFFF;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-copy {
+    background: #ede5cc;
+    color: #094542;
+    height: 67px;
+    width: 336px;
+    position: relative;
+    flex-direction: row;
+    margin-left: 32px;
+    text-align: center;
+}
+
+.information h6 {
+    color: #495057;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 40%;
+}
+
+h6 {
+    font-size: 12px;
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 12px;
+    margin-right: 25px;
+    font-weight: bold;
+    color: #495057;
+}
+
+footer a:hover{
+    color: #094542;
+    font-size: 15px;
+}
+
+footer{
+    margin-left: 80px;
+
+}
